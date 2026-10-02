@@ -105,6 +105,25 @@ omarchy plugin remove io.github.qempexe.recipe-radar
 
 This does not edit `shell.json`: remove the `{ "id": "io.github.qempexe.recipe-radar" }` entry from your bar layout by hand. To delete your saved pantry and favorites, remove `~/.config/recipe-radar.json`.
 
+## Roadmap
+
+- [ ] Rank suggestions by how many of your pantry items they use ("you have 4 of 7")
+- [ ] Use all pantry items for suggestions, not just the first three
+- [ ] Missing-ingredients view / shopping list
+- [ ] Filter by category or cuisine
+- [ ] Search recipes by name
+- [ ] Arrow-key navigation in lists, `Enter` to open
+- [ ] Offline and API-error messages instead of an empty list
+- [ ] Cache the ingredient list and recipe details
+- [ ] Loading states for recipe details and images
+- [ ] Better ingredient matching ("chicken breast" vs "chicken")
+- [ ] Export / import pantry and favorites
+- [ ] Configurable storage location and optional supporter API key
+- [ ] Screenshot and theme gallery
+- [ ] Changelog and tagged releases
+
+Ideas and pull requests are welcome.
+
 ## License
 
 [MIT](LICENSE)
