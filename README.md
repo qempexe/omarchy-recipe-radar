@@ -61,7 +61,7 @@ omarchy-shell io.github.qempexe.recipe-radar close
 
 ## Data and privacy
 
-- Recipes and ingredients come from [TheMealDB](https://www.themealdb.com) through its free public API. Please check their terms for your use case.
+- Recipes and ingredients come from [TheMealDB](https://www.themealdb.com) through its free public API. Recipe Radar is not affiliated with TheMealDB. Please check their terms for your use case.
 - Your pantry and favorites are stored locally in `~/.config/recipe-radar.json`. Nothing else is stored or sent anywhere.
 - The only network requests are to `themealdb.com` (search, recipe details, images).
 
